@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-11-10 15:38+0000\n"
+"Last-Translator: Babyfire <ieric@163.com>\n"
+"Language: zh_Hans\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+
+msgid "KMS Server"
+msgstr "KMS 服务器"
+
+msgid "A KMS Server Emulator to active your Windows or Office"
+msgstr "KMS服务器可用于激活Windows或Office"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Enable or disable KMS Server"
+msgstr "启用或禁用 KMS 服务"
+
+msgid "Server Name"
+msgstr "服务器名称"
+
+msgid "Auto activate"
+msgstr "自动激活局域网客户端"
+
+msgid "Enable or disable auto activate"
+msgstr "启用或禁用自动激活"

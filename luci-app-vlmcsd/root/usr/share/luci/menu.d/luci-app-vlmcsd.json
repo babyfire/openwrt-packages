@@ -1,0 +1,14 @@
+{
+	"admin/services/vlmcsd": {
+		"title": "KMS",
+		"action": {
+			"type": "view",
+			"path": "vlmcsd/vlmcsd"
+		},
+		"depends": {
+			"uci": {
+				"vlmcsd": true
+			}
+		}
+	}
+}

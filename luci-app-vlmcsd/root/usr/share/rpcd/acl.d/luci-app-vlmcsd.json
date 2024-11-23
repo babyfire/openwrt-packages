@@ -1,0 +1,15 @@
+{
+	"luci-app-vlmcsd": {
+		"description": "Grant access to LuCI app vlmcsd",
+		"read": {
+			"uci": [
+				"vlmcsd"
+			]
+		},
+		"write": {
+			"uci": [
+				"vlmcsd"
+			]
+		}
+	}
+}
