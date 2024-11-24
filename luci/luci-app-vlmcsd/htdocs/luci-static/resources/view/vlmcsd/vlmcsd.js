@@ -63,7 +63,7 @@ return view.extend({
         o.rmempty = false;
         o.default = o.disabled;
 
-        o = s.option(form.Value, "server_name", _("Server Name"), _("kms server name"));
+        o = s.option(form.Value, "server_name", _("Server Name"), _("KMS Server name"));
         o.default = "kms";
         o.datatype = "hostname";
         o.rempty = false;
