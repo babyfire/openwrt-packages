@@ -46,14 +46,14 @@ define Package/vlmcsd/install
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/bin/vlmcs $(1)/usr/bin/vlmcs
 
 	$(INSTALL_DIR) $(1)/etc/config
-	$(INSTALL_CONF) ./files/vlmcsd $(1)/etc/config/vlmcsd
+	$(INSTALL_CONF) $(CURDIR)/files/vlmcsd $(1)/etc/config/vlmcsd
 
 	$(INSTALL_DIR) $(1)/etc/vlmcsd
-	$(INSTALL_CONF) ./files/vlmcsd.ini $(1)/etc/vlmcsd/vlmcsd.ini
+	$(INSTALL_CONF) $(CURDIR)/files/vlmcsd.ini $(1)/etc/vlmcsd/vlmcsd.ini
 	$(INSTALL_CONF) $(PKG_BUILD_DIR)/etc/vlmcsd.kmd $(1)/etc/vlmcsd/vlmcsd.kmd
 
 	$(INSTALL_DIR) $(1)/etc/init.d
-	$(INSTALL_BIN) ./files/vlmcsd.init $(1)/etc/init.d/vlmcsd
+	$(INSTALL_BIN) $(CURDIR)/files/vlmcsd.init $(1)/etc/init.d/vlmcsd
 endef
 
 $(eval $(call BuildPackage,vlmcsd))
