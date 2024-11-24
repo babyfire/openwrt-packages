@@ -59,7 +59,7 @@ return view.extend({
         s = m.section(form.TypedSection, "vlmcsd", _("Settings"));
         s.anonymous = true;
 
-        o = s.option(form.Flag, "enabled", _("Enable"), _("Enable or disable kms server"));
+        o = s.option(form.Flag, "enabled", _("Enable"), _("Enable or disable KMS Server"));
         o.rmempty = false;
         o.default = o.disabled;
 

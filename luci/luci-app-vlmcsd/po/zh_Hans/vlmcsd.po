@@ -23,6 +23,9 @@ msgstr "启用或禁用 KMS 服务"
 msgid "Server Name"
 msgstr "服务器名称"
 
+msgid "kms server name"
+msgstr "KMS服务器名称"
+
 msgid "Auto activate"
 msgstr "自动激活局域网客户端"
 
